@@ -95,6 +95,7 @@
 		86D152351E8F2E730082D035 /* Credits for sounds.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 86D151E71E8F2E730082D035 /* Credits for sounds.rtf */; };
 		86D152361E8F2E730082D035 /* life sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 86D151E81E8F2E730082D035 /* life sound.wav */; };
 		86D152371E8F2E730082D035 /* Player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 86D151E91E8F2E730082D035 /* Player.atlas */; };
+		86D1523C1E9040360082D035 /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 86D1523B1E9040360082D035 /* GameplayScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -209,6 +210,7 @@
 		86D151E71E8F2E730082D035 /* Credits for sounds.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Credits for sounds.rtf"; sourceTree = "<group>"; };
 		86D151E81E8F2E730082D035 /* life sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "life sound.wav"; sourceTree = "<group>"; };
 		86D151E91E8F2E730082D035 /* Player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Player.atlas; path = "Jack The Giant/Player.atlas"; sourceTree = "<group>"; };
+		86D1523B1E9040360082D035 /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				86D151511E8F213F0082D035 /* Jack The Giant */,
+				86D152381E903E000082D035 /* Scenes */,
 				86D151861E8F29900082D035 /* Assets */,
 				86D1516C1E8F213F0082D035 /* Jack The GiantTests */,
 				86D151771E8F213F0082D035 /* Jack The GiantUITests */,
@@ -552,6 +555,14 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
+		86D152381E903E000082D035 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				86D1523B1E9040360082D035 /* GameplayScene.sks */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -705,6 +716,7 @@
 				86D152311E8F2E730082D035 /* Cloud 3.png in Resources */,
 				86D151FE1E8F2E730082D035 /* Ready.png in Resources */,
 				86D151F61E8F2E730082D035 /* Click Sound.wav in Resources */,
+				86D1523C1E9040360082D035 /* GameplayScene.sks in Resources */,
 				86D1520C1E8F2E730082D035 /* game background2.png in Resources */,
 				86D151ED1E8F2E730082D035 /* Show Score.png in Resources */,
 				86D151F41E8F2E730082D035 /* blow.ttf in Resources */,
@@ -1011,6 +1023,7 @@
 				86D1517F1E8F213F0082D035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86D151801E8F213F0082D035 /* Build configuration list for PBXNativeTarget "Jack The GiantTests" */ = {
 			isa = XCConfigurationList;
@@ -1019,6 +1032,7 @@
 				86D151821E8F213F0082D035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86D151831E8F213F0082D035 /* Build configuration list for PBXNativeTarget "Jack The GiantUITests" */ = {
 			isa = XCConfigurationList;
@@ -1027,6 +1041,7 @@
 				86D151851E8F213F0082D035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
