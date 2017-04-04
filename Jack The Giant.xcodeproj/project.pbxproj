@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86144FEE1E9418F600847D5F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86144FED1E9418F600847D5F /* Player.swift */; };
 		86D151531E8F213F0082D035 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D151521E8F213F0082D035 /* AppDelegate.swift */; };
 		86D151551E8F213F0082D035 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 86D151541E8F213F0082D035 /* GameScene.sks */; };
 		86D151571E8F213F0082D035 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 86D151561E8F213F0082D035 /* Actions.sks */; };
@@ -73,6 +74,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86144FED1E9418F600847D5F /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		86D1514F1E8F213F0082D035 /* Jack The Giant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jack The Giant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D151521E8F213F0082D035 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86D151541E8F213F0082D035 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -152,6 +154,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86144FEC1E9418C200847D5F /* Player class */ = {
+			isa = PBXGroup;
+			children = (
+				86144FED1E9418F600847D5F /* Player.swift */,
+			);
+			name = "Player class";
+			sourceTree = "<group>";
+		};
 		86D151461E8F213F0082D035 = {
 			isa = PBXGroup;
 			children = (
@@ -348,6 +358,7 @@
 		86D1523D1E9045530082D035 /* Game Classes */ = {
 			isa = PBXGroup;
 			children = (
+				86144FEC1E9418C200847D5F /* Player class */,
 				86D1523E1E904DE30082D035 /* Scene Classes */,
 			);
 			name = "Game Classes";
@@ -535,6 +546,7 @@
 				86D152401E904E300082D035 /* GameplayScene.swift in Sources */,
 				86D151591E8F213F0082D035 /* GameScene.swift in Sources */,
 				86D1515B1E8F213F0082D035 /* GameViewController.swift in Sources */,
+				86144FEE1E9418F600847D5F /* Player.swift in Sources */,
 				86D151531E8F213F0082D035 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
